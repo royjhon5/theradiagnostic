@@ -36,7 +36,7 @@ export const SITE_CONFIG: Metadata = {
         ]
     },
     alternates: {
-        canonical: "https://aspirekeeper.com/",
+        canonical: "https://theradiagnostic-staging.vercel.app/",
     },
-    metadataBase: new URL("https://astra-app.vercel.app"),
+    metadataBase: new URL("https://theradiagnostic-staging.vercel.app/"),
 };
