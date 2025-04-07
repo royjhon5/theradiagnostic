@@ -9,8 +9,8 @@ export const SITE_CONFIG: Metadata = {
     icons: {
         icon: [
             {
-                url: "/favicon/favicon.ico",
-                href: "/favicon/favicon.ico",
+                url: "https://theradiagnostic-staging.vercel.app/favicon/favicon.ico",
+                href: "https://theradiagnostic-staging.vercel.app/favicon/favicon.ico",
             }
         ]
     },
@@ -19,7 +19,7 @@ export const SITE_CONFIG: Metadata = {
         description: "Reliable diagnostic center offering accurate tests and medical screenings with advanced technology for quick and efficient results. Trusted by patients for quality care.",
         images: [
             {
-                url: "/thumbnail/thumbnail.png",
+                url: "https://theradiagnostic-staging.vercel.app/thumbnail/thumbnail.png",
                 width: 1200,
                 height: 630,
                 alt: "TheraDiagnostic Thumbnail",
