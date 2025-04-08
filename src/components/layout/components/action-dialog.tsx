@@ -204,16 +204,16 @@ export function ActionDialog({ open, onOpenChange }: Props) {
           </div>
         </div>
         <DialogFooter>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 md:ml-2">
             <Checkbox id="terms" />
             <label
               htmlFor="terms"
-              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              className="text-sm font-medium"
             >
               Accept terms and conditions
             </label>
           </div>
-          <Button size="lg" className='rounded-full w-full bg-[#16A7E2]'>
+          <Button size="lg" className='rounded-md w-full bg-[#16A7E2]'>
             Register <ArrowRight />
           </Button>
         </DialogFooter>
