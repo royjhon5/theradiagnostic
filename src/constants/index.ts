@@ -2,19 +2,23 @@ import { Icons } from "@/components";
 
 export const perks = [
     {
-        title: "130 + Health Accross Nations",
+        title: "130+",
+        titlecon: "Health Accross Nations",
         info: "Connecting you to world-class healthcare, no matter where you are.",
     },
     {
-        title: "500 + Expert Doctors",
+        title: "500+",
+        titlecon: "Expert Doctors",
         info: "Connecting you to world-class healthcare, no matter where you are.",
     },
     {
-        title: "95% Patient Satisfaction Rate",
+        title: "95%",
+        titlecon: "Patient Satisfaction Rate",
         info: "Trusted expertise from a netwrok of highly skilled doctors dedicated",
     },
     {
-        title: "800 + Global Patient Volume",
+        title: "800+",
+        titlecon: "Global Patient Volume",
         info: "Providing comprehensive care to patients from all corners of the world"
     },
 ];
@@ -117,34 +121,34 @@ export const bentoCards = [
 
 export const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
-        body: "I've never seen anything like this before. It's amazing. I love it.",
+        name: "Satah Johnson",
+        username: "Agusan, CDO",
+        body: "I had a wonderul experince at this clinic. The staff was friendly and very professional. I feilt comfortable and well taken care of throughout my visit. Highly recommended!",
     },
     {
-        name: "Jill",
-        username: "@jill",
-        body: "I don't know what to say. I'm speechless. This is amazing.",
+        name: "Jill Jack",
+        username: "Gusa, CDO",
+        body: "I had a wonderul experince at this clinic. The staff was friendly and very professional. I feilt comfortable and well taken care of throughout my visit. Highly recommended!",
     },
     {
-        name: "John",
-        username: "@john",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "John Torres",
+        username: "RER, CDO",
+        body: "I had a wonderul experince at this clinic. The staff was friendly and very professional. I feilt comfortable and well taken care of throughout my visit. Highly recommended!",
     },
     {
-        name: "Jane",
-        username: "@jane",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Jane Ko Go",
+        username: "Kauswagan, CDO",
+        body: "I had a wonderul experince at this clinic. The staff was friendly and very professional. I feilt comfortable and well taken care of throughout my visit. Highly recommended!",
     },
     {
-        name: "Jenny",
-        username: "@jenny",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Roy jhon Cubillan",
+        username: "Bulua, CDO",
+        body: "I had a wonderul experince at this clinic. The staff was friendly and very professional. I feilt comfortable and well taken care of throughout my visit. Highly recommended!",
     },
     {
-        name: "James",
+        name: "Johncena",
         username: "@james",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        body: "I had a wonderul experince at this clinic. The staff was friendly and very professional. I feilt comfortable and well taken care of throughout my visit. Highly recommended!",
     },
 ];
 

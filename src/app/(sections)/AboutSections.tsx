@@ -52,9 +52,24 @@ const AboutUsSection: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full border rounded-md md:divide-x">
               {perks.map((perk) => (
                   <div key={perk.title} className="flex flex-col items-start p-2">
-                      <h3 className="text-lg font-medium mt-2">
+                      <div className="flex flex-row items-start justify-center items-center gap-8">
+                      <h3 className={`text-6xl font-medium mt-2 ${
+                                              perk.title === "130+" 
+                                            ? "text-[#A9B963]" 
+                                            : perk.title === "500+" 
+                                            ? "text-[#F159FF]" 
+                                            : perk.title === '95%'
+                                            ? "text-[#F87C47]"
+                                            : perk.title === '800+'
+                                            ? "text-[#52C8DC]" 
+                                            : "text-[#333]"
+                                        }`}>
                           {perk.title}
                       </h3>
+                      <p className="text-muted-foreground text-start lg:text-start">
+                          {perk.titlecon}
+                      </p>
+                      </div>
                       <p className="text-muted-foreground mt-12 text-start lg:text-start">
                           {perk.info}
                       </p>

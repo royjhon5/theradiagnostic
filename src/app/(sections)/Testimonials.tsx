@@ -17,9 +17,9 @@ const Testimonials: React.FC = () => {
             <div className="flex justify-between items-center">
             <div>
             <h1 className="text-3xl font-bold text-blue-600">WHAT PEOPLE ARE SAYING</h1>
-             <p className="text-muted-foreground">
-                    See how ThereDiagnostics helps clients. Here&apos;s what real people are saying
-                </p>
+            <p className="text-muted-foreground">
+                See how ThereDiagnostics helps clients. Here&apos;s what real people are saying
+            </p>
             </div>
             <Button variant="outline" size="sm" className='rounded-full border border-[#16A7E2] text-xs text-[#16A7E2]'>
                 View all <ArrowRight size={12} className='ml-2' />
@@ -34,20 +34,21 @@ const Testimonials: React.FC = () => {
                             <figure
                                 key={review.name}
                                 className={cn(
-                                    "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
-                                    "border-zinc-50/[.1] bg-background over:bg-zinc-50/[.15]",
+                                    "relative w-72 cursor-pointer overflow-hidden rounded-xl border p-4",
+                                    "border-[#999999]/[.5] bg-background over:bg-zinc-50/[.15]",
                                 )}
                             >
+                                <blockquote className="mb-6 text-sm text-justify">{review.body}</blockquote>
                                 <div className="flex flex-row items-center gap-2">
                                     <UserIcon className="w-6 h-6" />
                                     <div className="flex flex-col">
-                                        <figcaption className="text-sm font-medium">
+                                        <figcaption className="text-sm font-medium text-[#116BB4]">
                                             {review.name}
                                         </figcaption>
                                         <p className="text-xs font-medium text-muted-foreground">{review.username}</p>
                                     </div>
                                 </div>
-                                <blockquote className="mt-2 text-sm">{review.body}</blockquote>
+                                
                             </figure>
                         ))}
                     </Marquee>
@@ -56,20 +57,20 @@ const Testimonials: React.FC = () => {
                             <figure
                                 key={review.name}
                                 className={cn(
-                                    "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
-                                    "border-zinc-50/[.1] bg-background over:bg-zinc-50/[.15]",
+                                    "relative w-72 cursor-pointer overflow-hidden rounded-xl border p-4",
+                                    "border-[#999999]/[.5] bg-background over:bg-zinc-50/[.15]",
                                 )}
                             >
+                                <blockquote className="mb-6 text-sm text-justify">{review.body}</blockquote>
                                 <div className="flex flex-row items-center gap-2">
                                     <UserIcon className="w-6 h-6" />
                                     <div className="flex flex-col">
-                                        <figcaption className="text-sm font-medium">
+                                        <figcaption className="text-sm font-medium text-[#116BB4]">
                                             {review.name}
                                         </figcaption>
                                         <p className="text-xs font-medium text-muted-foreground">{review.username}</p>
                                     </div>
-                                </div>
-                                <blockquote className="mt-2 text-sm">{review.body}</blockquote>
+                                </div>                  
                             </figure>
                         ))}
                     </Marquee>

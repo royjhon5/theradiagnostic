@@ -1,16 +1,18 @@
 
 
-
+'use client'
 import Link from "next/link";
 import TheraLogo from '../../../public/logo/logo.png'
 import Image from "next/image";
 import Container from "../global/container";
-import { Button } from "../ui/button";
-import { ArrowRight } from "lucide-react";
+import MainProvider from "./context/context-provider";
+import { PrimaryButton } from "./components/primary-buttons";
+import { DialogContainer } from "./components/group-dialogs";
 
-const Navbar = async () => {
-
+export default function Navbar() {
     return (
+        <MainProvider>
+        <DialogContainer />
         <header className="px-4 h-20 sticky top-0 inset-x-0 w-full bg-background/40 backdrop-blur-lg z-50">
             <Container reverse>
                 <div className="flex items-center justify-between h-full mx-auto md:max-w-screen-xl">
@@ -31,14 +33,11 @@ const Navbar = async () => {
                         </ul>
                     </nav>
                     <div className="flex items-center gap-4">
-                        <Button className="bg-[#16A7E2] text-white  hover:bg-blue-600 cursor-pointer rounded-2xl" size="lg">
-                            Talk to an Expert <ArrowRight size={16} className="ml-3" />
-                        </Button>
+                        <PrimaryButton />
                     </div>
                 </div>
             </Container>
         </header>
+        </MainProvider>
     )
 };
-
-export default Navbar
