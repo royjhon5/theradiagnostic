@@ -1,83 +1,76 @@
-import Container from '@/components/global/container';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { perks } from '@/constants';
-import { Check } from 'lucide-react';
-import React from 'react';
+import Container from "@/components/global/container";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { perks } from "@/constants";
+import { Check, Eye, Target } from "lucide-react";
+import React from "react";
 
 const AboutUsSection: React.FC = () => {
   return (
     <Container>
-    <section>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div className="space-y-6">
-          <div>
-            <h2 className="text-sm font-medium uppercase tracking-wide text-gray-600">ABOUT US</h2>
-            <h1 className="text-4xl font-bold text-[#0070c9] mt-2">The Heart Of Our Clinic</h1>
+      <section className="py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Our Purpose
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Discover what drives us forward and the future we envision
+            </p>
           </div>
-          <p className="text-gray-700">
-            At our clinic, we offer personalized healthcare packages designed to meet your unique needs. Our expert team
-            ensures that you receive the best care at an affordable price, with a focus on your long-term health.
-          </p>
-          <ul className="space-y-3">
-            <li className="flex items-start">
-              <Check className="h-5 w-5 text-[#0070c9] mr-2 mt-0.5 flex-shrink-0" />
-              <span className="text-gray-700">Tailored treatment plans to suit your health goals</span>
-            </li>
-            <li className="flex items-start">
-              <Check className="h-5 w-5 text-[#0070c9] mr-2 mt-0.5 flex-shrink-0" />
-              <span className="text-gray-700">Affordable pricing with no hidden costs</span>
-            </li>
-            <li className="flex items-start">
-              <Check className="h-5 w-5 text-[#0070c9] mr-2 mt-0.5 flex-shrink-0" />
-              <span className="text-gray-700">Expert medical team dedicated to your well-being</span>
-            </li>
-          </ul>
-          <div>
-            <Button
-              variant="outline"
-              className="rounded-full border-gray-400 hover:bg-gray-100 hover:text-gray-900 transition-colors px-6"
-            >
-              Learn More
-            </Button>
-          </div>
-        </div>
 
-        <div className="relative h-[400px] w-full">
-          <div className="absolute right-0 top-0 w-4/5 h-4/5 bg-gray-300 rounded-lg"></div>
-          <div className="absolute left-0 bottom-0 w-4/5 h-4/5 bg-gray-300 rounded-lg border-4 border-white"></div>
-        </div>
-      </div>
-      <div className="flex flex-col items-center justify-center py-10 md:py-20 w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full border rounded-md md:divide-x">
-              {perks.map((perk) => (
-                  <div key={perk.title} className="flex flex-col items-start p-2">
-                      <div className="flex flex-row items-start justify-center items-center gap-8">
-                      <h3 className={`text-6xl font-medium mt-2 ${
-                                              perk.title === "130+" 
-                                            ? "text-[#A9B963]" 
-                                            : perk.title === "500+" 
-                                            ? "text-[#F159FF]" 
-                                            : perk.title === '95%'
-                                            ? "text-[#F87C47]"
-                                            : perk.title === '800+'
-                                            ? "text-[#52C8DC]" 
-                                            : "text-[#333]"
-                                        }`}>
-                          {perk.title}
-                      </h3>
-                      <p className="text-muted-foreground text-start lg:text-start">
-                          {perk.titlecon}
-                      </p>
-                      </div>
-                      <p className="text-muted-foreground mt-12 text-start lg:text-start">
-                          {perk.info}
-                      </p>
-                  </div>
-              ))}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Mission Card */}
+            <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Target className="w-8 h-8 text-blue-600" />
+                </div>
+                <CardTitle className="text-2xl font-bold text-gray-900">
+                  Our Mission
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-base text-gray-600 leading-relaxed">
+                  To be the leading provider of innovative and comprehensive
+                  diagnostic services, setting the standard for excellence in
+                  patient care and clinical accuracy. To pursue solutions that
+                  empower healthcare providers, enhance patient outcomes, and
+                  increase health awareness. To build relationships and engage
+                  in strategic collaboration with stakeholders
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Vision Card */}
+            <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Eye className="w-8 h-8 text-green-600" />
+                </div>
+                <CardTitle className="text-2xl font-bold text-gray-900">
+                  Our Vision
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-base text-gray-600 leading-relaxed">
+                  To be the leader in medical diagnostic innovation in Northern
+                  Mindanao, transforming healthcare through the use of
+                  groundbreaking technologies that enable early, accurate, and
+                  accessible diagnoses for all in order to redefine the future
+                  of medical diagnostics.
+                </CardDescription>
+              </CardContent>
+            </Card>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
     </Container>
   );
 };
