@@ -22,7 +22,7 @@ export default function Services() {
                   Our Services
                 </h1>
                 <p className="text-lg text-blue-600 font-medium mb-6">
-                  Clinical Accuracy: Our Mission -
+                  Clinical Accuracy: Our Mission
                 </p>
                 <p className="text-gray-700 max-w-4xl mx-auto leading-relaxed">
                   At TheraDiagnostics, we are committed to providing
@@ -59,8 +59,9 @@ export default function Services() {
                         <li>• Complete Blood Count</li>
                         <li>• Urinalysis</li>
                         <li>• Fasting Blood Sugar</li>
-                        <li>• Rate ( Erythrocyte Sedimentation Rate )</li>
-                        <li>• Stool</li>
+                        <li>• Random Blood Sugar</li>
+                        <li>• Erythrocyte Sedimentation Rate (ESR)</li>
+                        <li>• Stool Exam / Fecalysis</li>
                       </ul>
                     </div>
                   </CardContent>
