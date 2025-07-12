@@ -79,10 +79,10 @@ export default function Services() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-600 text-sm mb-4">
-                      Get detailed insights into your bodys chemical balance
-                      with our comprehensive chemistry test package, essential
-                      for diagnosing, monitoring, and managing various health
-                      conditions.
+                      Get detailed insights into your body&apos;s chemical
+                      balance with our comprehensive chemistry test package,
+                      essential for diagnosing, monitoring, and managing various
+                      health conditions.
                     </p>
                     <div>
                       <p className="font-semibold text-gray-800 mb-2">
@@ -173,7 +173,7 @@ export default function Services() {
                       <UserCheck className="w-8 h-8 text-blue-600" />
                     </div>
                     <CardTitle className="text-xl text-blue-600">
-                      Doctors Consultation
+                      Doctor&apos;s Consultation
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
