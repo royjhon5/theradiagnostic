@@ -22,10 +22,10 @@ export default function Services() {
                   Our Services
                 </h1>
                 <p className="text-lg text-blue-600 font-medium mb-6">
-                  Clinical Accuracy Our Mission
+                  Clinical Accuracy: Our Mission -
                 </p>
                 <p className="text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                  At TheraDiagnostic, we are committed to providing
+                  At TheraDiagnostics, we are committed to providing
                   high-quality, accessible, and affordable diagnostic services
                   to support your health and well-being. Located in the heart of
                   Cagayan de Oro, our facility is equipped with modern
@@ -42,7 +42,7 @@ export default function Services() {
                       <Clipboard className="w-8 h-8 text-blue-600" />
                     </div>
                     <CardTitle className="text-xl text-blue-600">
-                      Basic Laboratory Test
+                      Basic Laboratory Tests:
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -56,7 +56,7 @@ export default function Services() {
                         Test Included:
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
-                        <li>• Complete Blood Count ( CBC )</li>
+                        <li>• Complete Blood Count</li>
                         <li>• Urinalysis</li>
                         <li>• Fasting Blood Sugar</li>
                         <li>• Rate ( Erythrocyte Sedimentation Rate )</li>
@@ -73,7 +73,7 @@ export default function Services() {
                       <TestTube className="w-8 h-8 text-blue-600" />
                     </div>
                     <CardTitle className="text-xl text-blue-600">
-                      Chemistry Test
+                      Chemistry Tests
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -125,7 +125,7 @@ export default function Services() {
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
                         <li>• HIV</li>
-                        <li>• Syphilis ( Syph )</li>
+                        <li>• Syphilis</li>
                         <li>• Hepatitis B Surface Antigen ( HBsAg )</li>
                         <li>• Hepatitis C Virus ( HCV )</li>
                         <li>• Hepatitis A Virus ( HAV )</li>
@@ -144,7 +144,7 @@ export default function Services() {
                       <Stethoscope className="w-8 h-8 text-blue-600" />
                     </div>
                     <CardTitle className="text-xl text-blue-600">
-                      Special Test
+                      Other Tests
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
