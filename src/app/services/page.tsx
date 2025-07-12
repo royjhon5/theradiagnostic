@@ -89,15 +89,15 @@ export default function Services() {
                         Test Included:
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
-                        <li>• Blood Uric Acid ( BUA )</li>
+                        <li>• Blood Uric Acid (BUA)</li>
                         <li>• Creatine</li>
-                        <li>• Blood Urea Nitrogen ( BUN )</li>
-                        <li>• Total Cholesterol ( Chol )</li>
+                        <li>• Blood Urea Nitrogen (BUN)</li>
+                        <li>• Total Cholesterol (Chol)</li>
                         <li>• SGPT/ALT</li>
                         <li>• SGOT/AST</li>
-                        <li>• Triglycerides ( TG )</li>
-                        <li>• Potassium ( K )</li>
-                        <li>• Chloride ( Cl )</li>
+                        <li>• Triglycerides (TG)</li>
+                        <li>• Potassium (K)</li>
+                        <li>• Chloride (Cl)</li>
                       </ul>
                     </div>
                   </CardContent>
@@ -127,9 +127,9 @@ export default function Services() {
                       <ul className="text-sm text-blue-600 space-y-1">
                         <li>• HIV</li>
                         <li>• Syphilis</li>
-                        <li>• Hepatitis B Surface Antigen ( HBsAg )</li>
-                        <li>• Hepatitis C Virus ( HCV )</li>
-                        <li>• Hepatitis A Virus ( HAV )</li>
+                        <li>• Hepatitis B Surface Antigen (HBsAg)</li>
+                        <li>• Hepatitis C Virus (HCV)</li>
+                        <li>• Hepatitis A Virus (HAV)</li>
                       </ul>
                     </div>
                   </CardContent>
@@ -159,7 +159,7 @@ export default function Services() {
                         Test Included:
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
-                        <li>• Clotting Time & Bleeding Time ( CT/BT )</li>
+                        <li>• Clotting Time & Bleeding Time (CT/BT)</li>
                         <li>• Pregnancy Test</li>
                       </ul>
                     </div>
