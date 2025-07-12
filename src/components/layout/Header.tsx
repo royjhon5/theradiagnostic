@@ -28,13 +28,13 @@ export default function Navbar() {
             <nav className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <ul className="flex items-center justify-center gap-10">
                 <Link
-                  href="#"
+                  href="/"
                   className="text-[#116BB4] hover:text-blue-600 text-sm"
                 >
                   Home
                 </Link>
                 <Link
-                  href="#"
+                  href="/services"
                   className="text-[#116BB4] hover:text-blue-600 text-sm"
                 >
                   Services
