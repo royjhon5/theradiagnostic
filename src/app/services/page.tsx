@@ -200,9 +200,10 @@ export default function Services() {
                   Your Health, Our Priority
                 </h2>
                 <p className="text-gray-700 max-w-3xl mx-auto">
-                  At TheraDiagnostic, we combine accurate results, compassionate
-                  care, and professional service all under one roof. Visit us
-                  today and take control of your health with confidence.
+                  At TheraDiagnostics, we combine accurate results,
+                  compassionate care, and professional service all under one
+                  roof. Visit us today and take control of your health with
+                  confidence.
                 </p>
               </div>
             </div>
