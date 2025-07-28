@@ -56,12 +56,12 @@ export default function Services() {
                         Test Included:
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
-                        <li>• Complete Blood Count</li>
+                        <li>• Complete Blood Count (CBC)</li>
                         <li>• Urinalysis</li>
-                        <li>• Fasting Blood Sugar</li>
-                        <li>• Random Blood Sugar</li>
                         <li>• Erythrocyte Sedimentation Rate (ESR)</li>
-                        <li>• Stool Exam / Fecalysis</li>
+                        <li>• Stool Examination</li>
+                        <li>• Clotting Time & Bleeding Time (CTBT)</li>
+                        <li>• Blood Typing</li>
                       </ul>
                     </div>
                   </CardContent>
@@ -90,14 +90,19 @@ export default function Services() {
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
                         <li>• Blood Uric Acid (BUA)</li>
-                        <li>• Creatine</li>
-                        <li>• Blood Urea Nitrogen (BUN)</li>
+                        <li>• Fasting Blood Sugar (FBS)</li>
+                        <li>• Random Blood Sugar (RBS)</li>
                         <li>• Total Cholesterol (Chol)</li>
-                        <li>• SGPT/ALT</li>
-                        <li>• SGOT/AST</li>
-                        <li>• Triglycerides (TG)</li>
+                        <li>• Ionized Calcium (Ical)</li>
+                        <li>• SGPT</li>
+                        <li>• SGOT</li>
+                        <li>• Sodium (Na)</li>
                         <li>• Potassium (K)</li>
                         <li>• Chloride (Cl)</li>
+                        <li>• HBA1C</li>
+                        <li>• 2 Hour Post Prandial</li>
+                        <li>• Oral Glucose Tolerance Test (OGTT)</li>
+                        <li>• Oral Glucose Challenge Test (OGCT)</li>
                       </ul>
                     </div>
                   </CardContent>
@@ -130,6 +135,7 @@ export default function Services() {
                         <li>• Hepatitis B Surface Antigen (HBsAg)</li>
                         <li>• Hepatitis C Virus (HCV)</li>
                         <li>• Hepatitis A Virus (HAV)</li>
+                        <li>• Dengue Duo</li>
                       </ul>
                     </div>
                   </CardContent>
@@ -145,7 +151,7 @@ export default function Services() {
                       <Stethoscope className="w-8 h-8 text-blue-600" />
                     </div>
                     <CardTitle className="text-xl text-blue-600">
-                      Other Tests
+                      Other Laboratory Test
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -159,8 +165,11 @@ export default function Services() {
                         Test Included:
                       </p>
                       <ul className="text-sm text-blue-600 space-y-1">
-                        <li>• Clotting Time & Bleeding Time (CT/BT)</li>
-                        <li>• Pregnancy Test</li>
+                        <li>• Micral Test</li>
+                        <li>• Pregnancy Test (Urine/Blood)</li>
+                        <li>• Occult Blood</li>
+                        <li>• Semen Analysis</li>
+                        <li>• Reticulocyte Count</li>
                       </ul>
                     </div>
                   </CardContent>

@@ -92,7 +92,7 @@ const HeroSection: React.FC = () => {
                   as="h1"
                   className="mt-8 max-w-2xl text-5xl font-medium md:text-6xl lg:mt-16 text-[#116BB4]"
                 >
-                  The best Diagnostic Center in Northern Mindanao
+                  The newest Diagnostic Center in Northern Mindanao
                 </TextEffect>
                 <TextEffect
                   per="line"

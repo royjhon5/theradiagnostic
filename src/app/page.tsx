@@ -29,9 +29,9 @@ export default function Home() {
         <Wrapper className="flex flex-col items-center justify-center py-12 relative">
           <OurGoalSection />
         </Wrapper>
-        <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+        {/* <Wrapper className="flex flex-col items-center justify-center py-12 relative">
           <Testimonials />
-        </Wrapper>
+        </Wrapper> */}
         {/* <Wrapper className="flex flex-col items-center justify-center py-12 relative">
           <ContactAndFaqs />
         </Wrapper>

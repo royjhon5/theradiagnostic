@@ -5,20 +5,20 @@ export default function WhyChooseUsSection() {
   const features = [
     {
       title: "State of the art facilities",
-      image: "/chooseus/image1.png",
+      image: "/logo/logo.png",
     },
     {
       title: "Experienced management team",
-      image: "/chooseus/image2.jpg",
+      image: "/logo/logo.png",
     },
     {
       title: "Digitalised systems for efficiency and comfort",
-      image: "/chooseus/image3.jpg",
+      image: "/logo/logo.png",
     },
     {
       title:
         "Committed to be the leader in medical innovation in Northern Mindanao",
-      image: "/chooseus/image4.jpg",
+      image: "/logo/logo.png",
     },
   ];
 
@@ -39,7 +39,7 @@ export default function WhyChooseUsSection() {
                     alt={feature.title}
                     width={300}
                     height={200}
-                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                    className="w-full h-48 rounded-lg shadow-md"
                   />
                 </div>
                 <p className="text-gray-700 text-sm md:text-base font-medium leading-relaxed">

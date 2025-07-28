@@ -49,12 +49,6 @@ export default function Navbar() {
                   href="#"
                   className="text-[#116BB4] hover:text-blue-600 text-sm"
                 >
-                  Book Appointments
-                </Link>
-                <Link
-                  href="#"
-                  className="text-[#116BB4] hover:text-blue-600 text-sm"
-                >
                   News & Blog
                 </Link>
                 <Link
